@@ -70,12 +70,14 @@ int main() {
 			if(0 == x && 0 == y)
 			{
 				dupa.second = 180;
-				// *
-				// Wystarczy obrucic 2nd ramie o 180.
-				// Ramie 1wsze pozostaje bez zmian
-				/*cout << x << "\t" << y << "\t";
+				/*
+				// Wystarczy obrócic 2-gie ramie o 180.
+				// Ramie 1-wsze pozostaje bez zmian
+				// Rozwiązanie matematycznie poprawne, niepraktyczne
+				cout << x << "\t" << y << "\t";
 				cout << "Move to position 0.0" << endl;
-				continue;*/
+				continue;
+				*/
 			}
 			else
 			{
